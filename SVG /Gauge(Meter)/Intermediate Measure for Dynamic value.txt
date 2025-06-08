@@ -1,0 +1,98 @@
+createOrReplace
+
+	ref table SVG
+
+		measure 'First X Coordinates' =
+				
+				VAR vPer=30
+				RETURN
+					100 + 90 * COS(RADIANS(180 - (vPer / 100) * 180))
+			displayFolder: Speedometer
+			lineageTag: e06d44ec-ce6c-4625-9ed4-a31582689474
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+		measure 'First Y Coordinates' =
+				
+				VAR vPer=30
+				RETURN
+					100 - 90 * SIN(RADIANS(180 - (vPer / 100) * 180))
+			displayFolder: Speedometer
+			lineageTag: 18371180-3892-49f5-82a8-f5bda322796d
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+		measure NeedleBaseLeftX =
+				VAR vAngle=30
+				RETURN
+					100 + 5 * COS( RADIANS(180 - ((vAngle / 100) * 180))+ RADIANS(90))
+			displayFolder: Speedometer
+			lineageTag: d3451279-8e6b-4f2d-94ba-777276f3f486
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+		measure NeedleBaseLeftY =
+				VAR vAngle=30
+				RETURN
+					100 - 5 * SIN( RADIANS(180 - ((vAngle / 100) * 180))+ RADIANS(90))
+			displayFolder: Speedometer
+			lineageTag: 2c539436-764a-4fa5-815c-2bf89a7040ed
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+		measure NeedleBaseRightX =
+				VAR vAngle=30
+				RETURN
+					100 + 5 * COS( RADIANS(180 - ((vAngle / 100) * 180))- RADIANS(90))
+			displayFolder: Speedometer
+			lineageTag: fed8a438-27f3-4248-9ccb-a4ddab24a706
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+		measure NeedleBaseRightY =
+				VAR vAngle=30
+				RETURN
+					100 - 5 * SIN( RADIANS(180 - ((vAngle / 100) * 180))- RADIANS(90))
+			displayFolder: Speedometer
+			lineageTag: ff670fda-8b3e-4d72-a916-b9c05a283d50
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+		measure NeedleTipX =
+				VAR vAngle=30
+				RETURN
+					100 + 70 * COS( RADIANS(180 - (vAngle / 100) * 180))
+			displayFolder: Speedometer
+			lineageTag: a1afab64-0138-47cb-a4a3-d786ba0f0b46
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+		measure NeedleTipY =
+				VAR vAngle=30
+				RETURN
+					100 - 70 * SIN(RADIANS(180 - ((vAngle / 100) * 180)))
+			displayFolder: Speedometer
+			lineageTag: f22e91c7-e3f5-4353-bda1-06dcef992268
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+		measure 'Second End X Coordinates' =
+				VAR vEndPerc=60
+				RETURN
+					100 + 90 * COS(RADIANS(180 - (vEndPerc / 100) * 180))
+			displayFolder: Speedometer
+			lineageTag: c7157a01-bde0-4289-bfb2-aafd430b982b
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+		measure 'Second End Y Coordinates' = ```
+				
+						VAR vEndPerc=60
+						RETURN
+							100 - 90 * SIN(RADIANS(180 - ((vEndPerc / 100) * 180)))
+				```
+			displayFolder: Speedometer
+			lineageTag: ba56dc50-760e-44a4-829c-612ba356cbcb
+
+			annotation PBI_FormatHint = {"isGeneralNumber":true}
+
