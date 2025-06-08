@@ -1,0 +1,1 @@
+Scalar Vector Graph. This can be used to create customize charts in the Power BI Dashboards. I have uploaded the sample code for charts, but you need to update hardcoded value with your actual value from fields to make it dunamic as per data.
