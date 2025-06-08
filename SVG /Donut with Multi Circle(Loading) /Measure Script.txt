@@ -1,0 +1,34 @@
+Donut with Multi Circle = VAR vColor="#468CD3" //'#C0D9F2' '#00CCCC'
+RETURN "data:image/svg+xml;utf8," &
+"<svg width='200' height='200' xmlns='http://www.w3.org/2000/svg'>
+<!-- Small Circles on Circumference -->
+<circle cx='99.99999999999999' cy='25.0' r='7' fill='#4dc9e6' />
+<circle cx='123.17672457812104' cy='28.670761277863477' r='7' fill='#34c1e5' />
+<circle cx='144.082375242187893' cy='39.3261068708645' r='7' fill='#23bbe4' />
+<circle cx='160.676292387221365' cy='55.916999' r='7' fill='#00b4e3' />
+<circle cx='171.3292387221365' cy='76.82672457812104' r='7' fill='#00ade2' />
+<circle cx='175.02375242187893' cy='100.0721365' r='7' fill='#00a5e1' />
+<circle cx='171.32672457812104' cy='123.18387221365' r='7' fill='#009edf' />
+<circle cx='160.6762999' cy='144.08' r='7' fill='#0096da' />
+<circle cx='140.089161068708645' cy='160.67287221365' r='7' fill='#008fd5' />
+<circle cx='123.176761277863477' cy='171.3292387221365' r='7' fill='#0087d0' />
+<circle cx='100' cy='175.0672457812104' r='7' fill='#0080cb' />
+<circle cx='76.8270761277863477' cy='171.3289999' r='7' fill='#0079c6' />
+<circle cx='55.91661068708645' cy='160.67068708645' r='7' fill='#0072c1' />
+<circle cx='39.32399999999999' cy='144.08' r='7' fill='#E0e1dd' />
+<circle cx='28.67672457812104' cy='123.17863477' r='7' fill='#E0e1dd' />
+<circle cx='25.042187893' cy='100.08645' r='7' fill='#E0e1dd' />
+<circle cx='28.6792387221365' cy='76.823999999999999' r='7' fill='#E0e1dd' />
+<circle cx='39.392387221365' cy='55.957812104' r='7' fill='#E0e1dd' />
+<circle cx='55.9162375242187893' cy='39.3233292387221365' r='7' fill='#E0e1dd' />
+<circle cx='76.823672457812104' cy='28.6792387221365' r='7' fill='#E0e1dd' />
+<text x='100' y='120' font-size='30' text-anchor='middle' fill='#0098d9'>60%</text>
+<text x='100' y='90' font-size='15' text-anchor='middle' fill='Grey'>Profit</text>
+</svg>"
+// #006bbd
+// #0063b9
+// #005cb6
+// #0053b5
+// #0049b8
+// #003dba
+// #0033b3
